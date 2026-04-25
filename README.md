@@ -5,7 +5,7 @@ from prompts import CV_REVIEW_PROMPT  # <--- Step 1: Import your prompt
 
 # AI API config
 API_URL = "https://api.openai.com/v1/chat/completions"
-API_KEY = "your-api-key" # Remember to use your actual key or an environment variable
+API_KEY = "your-api-key" # Remember to use your actual key
 
 def connect_to_ai(prompt):
     # Connect to AI API
